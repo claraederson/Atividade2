@@ -157,3 +157,15 @@ code {
 .reveal li code {
   font-size: 0.9em;
 }
+
+/* força estilo mesmo no GitHub */
+.reveal pre code {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-size: 1.5em !important;
+  white-space: pre-wrap !important;
+}
+
+.reveal pre {
+  background-color: #ffffff !important;
+}
