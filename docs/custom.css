@@ -132,3 +132,28 @@
   color: #64748b;
 }
 
+pre code {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+code {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.reveal pre {
+  background-color: #ffffff !important;
+}
+
+/* Código em bloco (chunk do R) */
+.reveal pre code {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+/* Código inline (tipo `x <- 1`) — mantém menor */
+.reveal p code,
+.reveal li code {
+  font-size: 0.9em;
+}
